@@ -1,5 +1,7 @@
 platform :ios, '7.1'
 
+link_with 'Tetloop', 'TetloopTests'
+
 pod 'FXForms', '~> 1.1'
 pod 'VTAcknowledgementsViewController', '~> 0.11'
 pod 'Colours', '~> 5.5'

@@ -3,7 +3,7 @@ PODS:
     - Google-Mobile-Ads-SDK
   - Colours (5.5.0)
   - FXForms (1.1.6)
-  - Google-Mobile-Ads-SDK (6.11.1)
+  - Google-Mobile-Ads-SDK (6.12.0)
   - iOSDetector (0.1.3)
   - RMStore (0.5.2):
     - RMStore/Core
@@ -24,7 +24,7 @@ SPEC CHECKSUMS:
   CJPAdController: 6124bf5a87475c7120c7557856b6f49521468713
   Colours: 7abeb0fdebe2da3d8bd7305aee0798375f51f5d8
   FXForms: 9387c60ee6f3e1c75e0f8998012acc1ce0ad8d0a
-  Google-Mobile-Ads-SDK: 657fcbf9436363d0f925cf905d176fb1cb10df85
+  Google-Mobile-Ads-SDK: b1b5cfd1b604a8412faa5536586b13a4b640f344
   iOSDetector: efccdbc417c4b6af56e89c88ed061e82ef7824c9
   RMStore: 2b0b5e5cba616ee33ad8f0eda85d31de9286817c
   SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
