@@ -1,0 +1,16 @@
+		<dict>
+			<key>FooterText</key>
+			<string>@Longsword</string>
+			<key>Title</key>
+			<string>Mosamosa font</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>PANICPUMPKIN</string>
+			<key>Title</key>
+			<string>Sound effects</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>

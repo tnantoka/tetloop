@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66EDAC003FEB4B67955572DA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD68DA24F15246B6AC647F21 /* libPods.a */; };
+		9B0BFB3F19A85A37003EE312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB3E19A85A37003EE312 /* Foundation.framework */; };
+		9B0BFB4119A85A37003EE312 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB4019A85A37003EE312 /* CoreGraphics.framework */; };
+		9B0BFB4319A85A37003EE312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB4219A85A37003EE312 /* UIKit.framework */; };
+		9B0BFB4919A85A37003EE312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BFB4719A85A37003EE312 /* InfoPlist.strings */; };
+		9B0BFB4B19A85A37003EE312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB4A19A85A37003EE312 /* main.m */; };
+		9B0BFB4F19A85A37003EE312 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB4E19A85A37003EE312 /* TLAppDelegate.m */; };
+		9B0BFB5119A85A37003EE312 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BFB5019A85A37003EE312 /* Images.xcassets */; };
+		9B0BFB5819A85A37003EE312 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB5719A85A37003EE312 /* XCTest.framework */; };
+		9B0BFB5919A85A37003EE312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB3E19A85A37003EE312 /* Foundation.framework */; };
+		9B0BFB5A19A85A37003EE312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0BFB4219A85A37003EE312 /* UIKit.framework */; };
+		9B0BFB6219A85A37003EE312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BFB6019A85A37003EE312 /* InfoPlist.strings */; };
+		9B0BFB6419A85A37003EE312 /* TetloopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB6319A85A37003EE312 /* TetloopTests.m */; };
+		9B0BFB7019A85AEA003EE312 /* TLTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB6F19A85AEA003EE312 /* TLTitleViewController.m */; };
+		9B0BFB7319A85DAE003EE312 /* TLPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB7219A85DAE003EE312 /* TLPlayViewController.m */; };
+		9B0BFB7719A8667F003EE312 /* TLSettingsForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB7619A8667F003EE312 /* TLSettingsForm.m */; };
+		9B0BFB7A19A868CE003EE312 /* TLSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB7919A868CE003EE312 /* TLSettingsViewController.m */; };
+		9B0BFB8119A8C0E7003EE312 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8019A8C0E7003EE312 /* Pods-acknowledgements.plist */; };
+		9B0BFB8319A8C1B1003EE312 /* Mosamosa-v1.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8219A8C1B1003EE312 /* Mosamosa-v1.1.ttf */; };
+		9B0BFB8619A8CF55003EE312 /* TLPlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8519A8CF55003EE312 /* TLPlayScene.m */; };
+		9B0BFB8919A9A9B9003EE312 /* TLStickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8819A9A9B9003EE312 /* TLStickNode.m */; };
+		9B0BFB8C19A9AA82003EE312 /* TLGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8B19A9AA82003EE312 /* TLGlobals.m */; };
+		9B0BFB8F19AB8254003EE312 /* TLWallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB8E19AB8254003EE312 /* TLWallNode.m */; };
+		9B0BFB9219B14229003EE312 /* TLResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0BFB9119B14229003EE312 /* TLResultViewController.m */; };
+		9B9EA1B019BC1C7E0084946E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9EA1B219BC1C7E0084946E /* Localizable.strings */; };
+		9BA61E2819B20030001D1F27 /* spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BA61E2619B20030001D1F27 /* spark.sks */; };
+		9BA61E2919B20030001D1F27 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BA61E2719B20030001D1F27 /* spark.png */; };
+		9BDEFA8C19B8B0F7009AF3B4 /* TLOpeningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEFA8B19B8B0F7009AF3B4 /* TLOpeningViewController.m */; };
+		9BDEFA8F19BAA862009AF3B4 /* TLOpeningScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDEFA8E19BAA862009AF3B4 /* TLOpeningScene.m */; };
+		9BDEFA9119BAD3CD009AF3B4 /* break.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDEFA9019BAD3CD009AF3B4 /* break.caf */; };
+		9BDEFA9519BAD585009AF3B4 /* crash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDEFA9419BAD585009AF3B4 /* crash.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0BFB5B19A85A37003EE312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0BFB3319A85A37003EE312 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0BFB3A19A85A37003EE312;
+			remoteInfo = Tetloop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FDFFD3A19614DC29120E9F9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9B0BFB3B19A85A37003EE312 /* Tetloop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetloop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0BFB3E19A85A37003EE312 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B0BFB4019A85A37003EE312 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B0BFB4219A85A37003EE312 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B0BFB4619A85A37003EE312 /* Tetloop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tetloop-Info.plist"; sourceTree = "<group>"; };
+		9B0BFB4819A85A37003EE312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B0BFB4A19A85A37003EE312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B0BFB4C19A85A37003EE312 /* Tetloop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tetloop-Prefix.pch"; sourceTree = "<group>"; };
+		9B0BFB4D19A85A37003EE312 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAppDelegate.h; sourceTree = "<group>"; };
+		9B0BFB4E19A85A37003EE312 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAppDelegate.m; sourceTree = "<group>"; };
+		9B0BFB5019A85A37003EE312 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B0BFB5619A85A37003EE312 /* TetloopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetloopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0BFB5719A85A37003EE312 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9B0BFB5F19A85A37003EE312 /* TetloopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TetloopTests-Info.plist"; sourceTree = "<group>"; };
+		9B0BFB6119A85A37003EE312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B0BFB6319A85A37003EE312 /* TetloopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetloopTests.m; sourceTree = "<group>"; };
+		9B0BFB6E19A85AEA003EE312 /* TLTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTitleViewController.h; sourceTree = "<group>"; };
+		9B0BFB6F19A85AEA003EE312 /* TLTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTitleViewController.m; sourceTree = "<group>"; };
+		9B0BFB7119A85DAE003EE312 /* TLPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLPlayViewController.h; sourceTree = "<group>"; };
+		9B0BFB7219A85DAE003EE312 /* TLPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLPlayViewController.m; sourceTree = "<group>"; };
+		9B0BFB7519A8667F003EE312 /* TLSettingsForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSettingsForm.h; sourceTree = "<group>"; };
+		9B0BFB7619A8667F003EE312 /* TLSettingsForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSettingsForm.m; sourceTree = "<group>"; };
+		9B0BFB7819A868CE003EE312 /* TLSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSettingsViewController.h; sourceTree = "<group>"; };
+		9B0BFB7919A868CE003EE312 /* TLSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLSettingsViewController.m; sourceTree = "<group>"; };
+		9B0BFB8019A8C0E7003EE312 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B0BFB8219A8C1B1003EE312 /* Mosamosa-v1.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mosamosa-v1.1.ttf"; sourceTree = "<group>"; };
+		9B0BFB8419A8CF55003EE312 /* TLPlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLPlayScene.h; sourceTree = "<group>"; };
+		9B0BFB8519A8CF55003EE312 /* TLPlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLPlayScene.m; sourceTree = "<group>"; };
+		9B0BFB8719A9A9B9003EE312 /* TLStickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLStickNode.h; sourceTree = "<group>"; };
+		9B0BFB8819A9A9B9003EE312 /* TLStickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLStickNode.m; sourceTree = "<group>"; };
+		9B0BFB8A19A9AA82003EE312 /* TLGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLGlobals.h; sourceTree = "<group>"; };
+		9B0BFB8B19A9AA82003EE312 /* TLGlobals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLGlobals.m; sourceTree = "<group>"; };
+		9B0BFB8D19AB8254003EE312 /* TLWallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLWallNode.h; sourceTree = "<group>"; };
+		9B0BFB8E19AB8254003EE312 /* TLWallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLWallNode.m; sourceTree = "<group>"; };
+		9B0BFB9019B14229003EE312 /* TLResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLResultViewController.h; sourceTree = "<group>"; };
+		9B0BFB9119B14229003EE312 /* TLResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLResultViewController.m; sourceTree = "<group>"; };
+		9B9EA1AE19BC1C780084946E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B9EA1AF19BC1C780084946E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B9EA1B119BC1C7E0084946E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B9EA1B319BC1C880084946E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B9EA1B419BDE34F0084946E /* TLSecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLSecrets.h; sourceTree = "<group>"; };
+		9BA61E2619B20030001D1F27 /* spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = spark.sks; sourceTree = "<group>"; };
+		9BA61E2719B20030001D1F27 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9BDEFA8A19B8B0F7009AF3B4 /* TLOpeningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLOpeningViewController.h; sourceTree = "<group>"; };
+		9BDEFA8B19B8B0F7009AF3B4 /* TLOpeningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLOpeningViewController.m; sourceTree = "<group>"; };
+		9BDEFA8D19BAA862009AF3B4 /* TLOpeningScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLOpeningScene.h; sourceTree = "<group>"; };
+		9BDEFA8E19BAA862009AF3B4 /* TLOpeningScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLOpeningScene.m; sourceTree = "<group>"; };
+		9BDEFA9019BAD3CD009AF3B4 /* break.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = break.caf; sourceTree = "<group>"; };
+		9BDEFA9419BAD585009AF3B4 /* crash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = crash.caf; sourceTree = "<group>"; };
+		FD68DA24F15246B6AC647F21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0BFB3819A85A37003EE312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB4119A85A37003EE312 /* CoreGraphics.framework in Frameworks */,
+				9B0BFB4319A85A37003EE312 /* UIKit.framework in Frameworks */,
+				9B0BFB3F19A85A37003EE312 /* Foundation.framework in Frameworks */,
+				66EDAC003FEB4B67955572DA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0BFB5319A85A37003EE312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB5819A85A37003EE312 /* XCTest.framework in Frameworks */,
+				9B0BFB5A19A85A37003EE312 /* UIKit.framework in Frameworks */,
+				9B0BFB5919A85A37003EE312 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0BFB3219A85A37003EE312 = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB4419A85A37003EE312 /* Tetloop */,
+				9B0BFB5D19A85A37003EE312 /* TetloopTests */,
+				9B0BFB3D19A85A37003EE312 /* Frameworks */,
+				9B0BFB3C19A85A37003EE312 /* Products */,
+				2FDFFD3A19614DC29120E9F9 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0BFB3C19A85A37003EE312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB3B19A85A37003EE312 /* Tetloop.app */,
+				9B0BFB5619A85A37003EE312 /* TetloopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0BFB3D19A85A37003EE312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB3E19A85A37003EE312 /* Foundation.framework */,
+				9B0BFB4019A85A37003EE312 /* CoreGraphics.framework */,
+				9B0BFB4219A85A37003EE312 /* UIKit.framework */,
+				9B0BFB5719A85A37003EE312 /* XCTest.framework */,
+				FD68DA24F15246B6AC647F21 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B0BFB4419A85A37003EE312 /* Tetloop */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB7B19A870CD003EE312 /* Assets */,
+				9B0BFB7419A86654003EE312 /* Models */,
+				9B0BFB6D19A85A48003EE312 /* Controllers */,
+				9B0BFB4D19A85A37003EE312 /* TLAppDelegate.h */,
+				9B0BFB4E19A85A37003EE312 /* TLAppDelegate.m */,
+				9B0BFB8A19A9AA82003EE312 /* TLGlobals.h */,
+				9B0BFB8B19A9AA82003EE312 /* TLGlobals.m */,
+				9B9EA1B419BDE34F0084946E /* TLSecrets.h */,
+				9B0BFB5019A85A37003EE312 /* Images.xcassets */,
+				9B0BFB4519A85A37003EE312 /* Supporting Files */,
+			);
+			path = Tetloop;
+			sourceTree = "<group>";
+		};
+		9B0BFB4519A85A37003EE312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EA1B219BC1C7E0084946E /* Localizable.strings */,
+				9B0BFB4619A85A37003EE312 /* Tetloop-Info.plist */,
+				9B0BFB4719A85A37003EE312 /* InfoPlist.strings */,
+				9B0BFB4A19A85A37003EE312 /* main.m */,
+				9B0BFB4C19A85A37003EE312 /* Tetloop-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B0BFB5D19A85A37003EE312 /* TetloopTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB6319A85A37003EE312 /* TetloopTests.m */,
+				9B0BFB5E19A85A37003EE312 /* Supporting Files */,
+			);
+			path = TetloopTests;
+			sourceTree = "<group>";
+		};
+		9B0BFB5E19A85A37003EE312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB5F19A85A37003EE312 /* TetloopTests-Info.plist */,
+				9B0BFB6019A85A37003EE312 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B0BFB6D19A85A48003EE312 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB6E19A85AEA003EE312 /* TLTitleViewController.h */,
+				9B0BFB6F19A85AEA003EE312 /* TLTitleViewController.m */,
+				9B0BFB7119A85DAE003EE312 /* TLPlayViewController.h */,
+				9B0BFB7219A85DAE003EE312 /* TLPlayViewController.m */,
+				9B0BFB7819A868CE003EE312 /* TLSettingsViewController.h */,
+				9B0BFB7919A868CE003EE312 /* TLSettingsViewController.m */,
+				9B0BFB9019B14229003EE312 /* TLResultViewController.h */,
+				9B0BFB9119B14229003EE312 /* TLResultViewController.m */,
+				9BDEFA8A19B8B0F7009AF3B4 /* TLOpeningViewController.h */,
+				9BDEFA8B19B8B0F7009AF3B4 /* TLOpeningViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B0BFB7419A86654003EE312 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B0BFB7519A8667F003EE312 /* TLSettingsForm.h */,
+				9B0BFB7619A8667F003EE312 /* TLSettingsForm.m */,
+				9B0BFB8419A8CF55003EE312 /* TLPlayScene.h */,
+				9B0BFB8519A8CF55003EE312 /* TLPlayScene.m */,
+				9B0BFB8719A9A9B9003EE312 /* TLStickNode.h */,
+				9B0BFB8819A9A9B9003EE312 /* TLStickNode.m */,
+				9B0BFB8D19AB8254003EE312 /* TLWallNode.h */,
+				9B0BFB8E19AB8254003EE312 /* TLWallNode.m */,
+				9BDEFA8D19BAA862009AF3B4 /* TLOpeningScene.h */,
+				9BDEFA8E19BAA862009AF3B4 /* TLOpeningScene.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B0BFB7B19A870CD003EE312 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9BDEFA9419BAD585009AF3B4 /* crash.caf */,
+				9BDEFA9019BAD3CD009AF3B4 /* break.caf */,
+				9B0BFB8019A8C0E7003EE312 /* Pods-acknowledgements.plist */,
+				9B0BFB8219A8C1B1003EE312 /* Mosamosa-v1.1.ttf */,
+				9BA61E2619B20030001D1F27 /* spark.sks */,
+				9BA61E2719B20030001D1F27 /* spark.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0BFB3A19A85A37003EE312 /* Tetloop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0BFB6719A85A37003EE312 /* Build configuration list for PBXNativeTarget "Tetloop" */;
+			buildPhases = (
+				7939783C7CEA4AD69FC07030 /* Check Pods Manifest.lock */,
+				9B0BFB3719A85A37003EE312 /* Sources */,
+				9B0BFB3819A85A37003EE312 /* Frameworks */,
+				9B0BFB3919A85A37003EE312 /* Resources */,
+				A4D9DF3F608C43FEBD01238A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tetloop;
+			productName = Tetloop;
+			productReference = 9B0BFB3B19A85A37003EE312 /* Tetloop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B0BFB5519A85A37003EE312 /* TetloopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0BFB6A19A85A37003EE312 /* Build configuration list for PBXNativeTarget "TetloopTests" */;
+			buildPhases = (
+				9B0BFB5219A85A37003EE312 /* Sources */,
+				9B0BFB5319A85A37003EE312 /* Frameworks */,
+				9B0BFB5419A85A37003EE312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0BFB5C19A85A37003EE312 /* PBXTargetDependency */,
+			);
+			name = TetloopTests;
+			productName = TetloopTests;
+			productReference = 9B0BFB5619A85A37003EE312 /* TetloopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0BFB3319A85A37003EE312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = tnantoka;
+				TargetAttributes = {
+					9B0BFB3A19A85A37003EE312 = {
+						DevelopmentTeam = H4Z42X3L6X;
+					};
+					9B0BFB5519A85A37003EE312 = {
+						TestTargetID = 9B0BFB3A19A85A37003EE312;
+					};
+				};
+			};
+			buildConfigurationList = 9B0BFB3619A85A37003EE312 /* Build configuration list for PBXProject "Tetloop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 9B0BFB3219A85A37003EE312;
+			productRefGroup = 9B0BFB3C19A85A37003EE312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0BFB3A19A85A37003EE312 /* Tetloop */,
+				9B0BFB5519A85A37003EE312 /* TetloopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0BFB3919A85A37003EE312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB8319A8C1B1003EE312 /* Mosamosa-v1.1.ttf in Resources */,
+				9BA61E2919B20030001D1F27 /* spark.png in Resources */,
+				9BDEFA9519BAD585009AF3B4 /* crash.caf in Resources */,
+				9B0BFB8119A8C0E7003EE312 /* Pods-acknowledgements.plist in Resources */,
+				9B9EA1B019BC1C7E0084946E /* Localizable.strings in Resources */,
+				9BDEFA9119BAD3CD009AF3B4 /* break.caf in Resources */,
+				9B0BFB4919A85A37003EE312 /* InfoPlist.strings in Resources */,
+				9B0BFB5119A85A37003EE312 /* Images.xcassets in Resources */,
+				9BA61E2819B20030001D1F27 /* spark.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0BFB5419A85A37003EE312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB6219A85A37003EE312 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7939783C7CEA4AD69FC07030 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D9DF3F608C43FEBD01238A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0BFB3719A85A37003EE312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB8C19A9AA82003EE312 /* TLGlobals.m in Sources */,
+				9B0BFB4F19A85A37003EE312 /* TLAppDelegate.m in Sources */,
+				9B0BFB7019A85AEA003EE312 /* TLTitleViewController.m in Sources */,
+				9B0BFB8F19AB8254003EE312 /* TLWallNode.m in Sources */,
+				9B0BFB7719A8667F003EE312 /* TLSettingsForm.m in Sources */,
+				9B0BFB7A19A868CE003EE312 /* TLSettingsViewController.m in Sources */,
+				9B0BFB8919A9A9B9003EE312 /* TLStickNode.m in Sources */,
+				9BDEFA8C19B8B0F7009AF3B4 /* TLOpeningViewController.m in Sources */,
+				9B0BFB9219B14229003EE312 /* TLResultViewController.m in Sources */,
+				9B0BFB8619A8CF55003EE312 /* TLPlayScene.m in Sources */,
+				9BDEFA8F19BAA862009AF3B4 /* TLOpeningScene.m in Sources */,
+				9B0BFB7319A85DAE003EE312 /* TLPlayViewController.m in Sources */,
+				9B0BFB4B19A85A37003EE312 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0BFB5219A85A37003EE312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0BFB6419A85A37003EE312 /* TetloopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0BFB5C19A85A37003EE312 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0BFB3A19A85A37003EE312 /* Tetloop */;
+			targetProxy = 9B0BFB5B19A85A37003EE312 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B0BFB4719A85A37003EE312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0BFB4819A85A37003EE312 /* en */,
+				9B9EA1AE19BC1C780084946E /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B0BFB6019A85A37003EE312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0BFB6119A85A37003EE312 /* en */,
+				9B9EA1AF19BC1C780084946E /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B9EA1B219BC1C7E0084946E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9EA1B119BC1C7E0084946E /* en */,
+				9B9EA1B319BC1C880084946E /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0BFB6519A85A37003EE312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B0BFB6619A85A37003EE312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0BFB6819A85A37003EE312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDFFD3A19614DC29120E9F9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetloop/Tetloop-Prefix.pch";
+				INFOPLIST_FILE = "Tetloop/Tetloop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B0BFB6919A85A37003EE312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDFFD3A19614DC29120E9F9 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetloop/Tetloop-Prefix.pch";
+				INFOPLIST_FILE = "Tetloop/Tetloop-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9B0BFB6B19A85A37003EE312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tetloop.app/Tetloop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetloop/Tetloop-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TetloopTests/TetloopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9B0BFB6C19A85A37003EE312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tetloop.app/Tetloop";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tetloop/Tetloop-Prefix.pch";
+				INFOPLIST_FILE = "TetloopTests/TetloopTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0BFB3619A85A37003EE312 /* Build configuration list for PBXProject "Tetloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0BFB6519A85A37003EE312 /* Debug */,
+				9B0BFB6619A85A37003EE312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0BFB6719A85A37003EE312 /* Build configuration list for PBXNativeTarget "Tetloop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0BFB6819A85A37003EE312 /* Debug */,
+				9B0BFB6919A85A37003EE312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0BFB6A19A85A37003EE312 /* Build configuration list for PBXNativeTarget "TetloopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0BFB6B19A85A37003EE312 /* Debug */,
+				9B0BFB6C19A85A37003EE312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0BFB3319A85A37003EE312 /* Project object */;
+}
