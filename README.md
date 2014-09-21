@@ -7,7 +7,7 @@ Infinite tile-matching game with Sprite Kit.
 
 # Installation
 
-## Clone project
+## 1. Clone project
 
 ```
 $ git clone git@github.com:tnantoka/tetloop.git
@@ -16,7 +16,7 @@ $ pod install
 $ open Tetloop.xcworkspace/
 ```
 
-## Create `TLSecrets.h`
+## 2. Create `TLSecrets.h`
 
 For AdMob.
 
@@ -29,11 +29,13 @@ static NSString * const kAdMobId = @"ca-app-pub-xxxxxxxxxxxxxxxx/nnnnnnnnnn";
 #endif
 ```
 
-## Remove optional assets
+## 3. Remove optional assets
 
-* Assets/crash.caf
-* Assets/break.caf
-* Assets/Mosamosa-v1.1.ttf
+Not included in this repository.
+
+* `Assets/crash.caf`
+* `Assets/break.caf`
+* `Assets/Mosamosa-v1.1.ttf`
 
 # Author
 
